@@ -1,0 +1,287 @@
+
+GW-Basic Programs
+Practical: 1- Write a Program to Print even numbers from 1 to 40.
+ 
+Program:
+10       CLS
+20      FOR B = 2 TO 40 STEP 2
+      30      PRINT B
+      40      NEXT  B
+      50      END
+Algorithm
+Step 1  START
+Step 2  STORAGE    B=2
+Step 3  DECISION    IS B<= 40 IF
+NOT THEN GO TO STEP 7
+Step 4  COMPUTE    B=B+2
+Step 5   PRINT
+STEP 6  GOTO STEP 3
+Step 7 END
+
+
+
+Algorithm
+
+Step 1  START
+Step 2  INPUT      L , W
+Step 3  COMPUTE   AREA= L * W
+Step 4    PRINT   AREA
+Step 5  END
+Practical: 11: Write a program that can calculate the perimeter of the rectangular.
+
+Program:
+10    CLS
+20     INPUT “Length …=”;L
+30     INPUT  “Width …=”; W
+40     PERIMETER=  2* ( L+W)
+50     PRINT “ PERIMETER….. =”; PERIMETER
+60     END
+Algorithm
+
+Step 1  START
+Step 2  INPUT      L , W
+Step 3  COMPUTE   PERIMETER = 2* ( L+W)
+Step 4    PRINT   PERIMETER
+Step 5  END
+
+Practical: 12: Write a program that can calculate the square and cube of any number.
+
+Program:
+10    CLS
+20     INPUT “ Enter any No..…=”; N
+30     Sq = N*N
+40     Cub= N^3
+50     PRINT “ Square….. =”; Sq
+60     PRINT “ Cube….. =”; Cub
+70      END
+Algorithm
+
+Step 1  START
+Step 2  INPUT      N
+Step 3  COMPUTE   Sq = N*N
+Step 4 COMPUTE   Cub = N^3
+ Step5  PRINT   Sq ,Cub
+Ste 
+Practical: 13: Write a program that can convert temperature from Centigrade to Fahrenheit
+
+Program:
+10    CLS
+20     INPUT “ Temperature in Centigrade :=”; C
+30     F = 9/5* C+32
+40     PRINT “Temperature in Fahrenheit =”; F
+50     END
+Algorithm
+
+Step 1  START
+Step 2  INPUT      C
+Step 3  COMPUTE    F = 9/5* C+32
+Step 4  PRINT        F
+Step 5  END
+Practical: 14: Write a program that can convert temperature from Fahrenheit to Centigrade
+
+Program:
+10    CLS
+20     INPUT “ Temperature in  Fahrenheit  :=”; F
+30     C = 5/9* ( F-32) 
+40     PRINT “Temperature in Centigrade  =”; C
+50     END
+Algorithm
+
+Step 1  START
+Step 2  INPUT      F
+Step 3  COMPUTE    C = 5/9* ( F-32)
+Step 4  PRINT        C
+Step 5  END
+Practical: 15:  Write a program that can draw a Triangle.
+
+Program:
+10    CLS
+20     SCREEN 2
+30     LINE  (110,50)- (160,100) 
+40     LINE  (60,100)- (160,100)
+50     LINE  (110,50)- (60,100) 
+60     END
+
+Algorithm
+Step 1      START
+Step 2       PRINT SCREEN 2
+Step 3       OUTPUT       LINE (110, 50) - (160,100) 
+                                 LINE (60,100) - (160,100)
+                                 LINE (110, 50) - (60,100) 
+
+Step 4            END
+Practical: 16:  Write a program that can draw a Rectangle.
+Program:
+10    CLS
+20     SCREEN 2
+30     LINE  (70,80)- (190,170),,B 
+40        END
+Algorithm
+Step 1      START
+Step 2       PRINT SCREEN 2
+Step 3       OUTPUT       LINE (70, 80) - (190,170),, B 
+Step 4       END
+Practical: 17: Write a program that can add 15+ 30+20+325.
+
+Program:
+10    CLS
+20     READ A,B,C,D
+30     SUM= A+B+C+D 
+40      PRINT “SUM OF 15,30,20 AND 325 IS…=”; SUM
+50      DATA 15,30,20,325
+60       END
+Algorithm
+Step 1      START
+Step 2       STORAGE       A=1
+Step 3       DECISION      IS A <=4, IF NOT THEN GOTO STEP 8 
+Step 4       COMPUTE      A=A+1
+ Step 5       COMPUTE     SUM = SUM +5^A
+ Step 6        PRINT   5^A, SUM
+ Step 7       GOTO STEP 3
+Step  8        END
+Practical: 18: Write a program that can print all odd numbers from 1 to 100.
+
+Program:
+10    CLS
+20    FOR N = 1 TO 100 STEP 2
+30    PRINT       N  
+40     NEXT   N
+50      END
+Algorithm
+Step 1      START
+Step 2       STORAGE       N=1
+Step 3       DECISION      IS N <=100, IF NOT THEN GOTO STEP 7 
+Step 4       COMPUTE      N=N+2
+ Step 5       PRINT            N
+ Step 6        GOTO STEP 3
+ Step 7        END
+Practical: 19: Write a program that can print all even numbers from 2 to 100.
+
+Program:
+10    CLS
+20    FOR  B =  2 TO 100 STEP 2
+30    PRINT       B  
+40     NEXT   B
+50      END
+Algorithm
+Step 1      START
+Step 2       STORAGE       B=2
+Step 3       DECISION      IS B <=100, IF NOT THEN GOTO STEP 7 
+Step 4       COMPUTE      B=B+2
+ Step 5       PRINT            B
+ Step 6        GOTO STEP 3
+ Step 7        END
+Practical:20:  program that can Print you name five times using FOR-NEXT Loop.
+
+Program:
+10    CLS
+20    FOR   N =1 TO 5
+30    PRINT    “GOD IS GREAT”
+40     NEXT   N
+50      END
+Algorithm
+Step 1      START
+Step 2       STORAGE       N=1
+Step 3       DECISION      IS N<=5, IF NOT THEN GOTO STEP 7 
+Step 4       PRINT               GOD IS GREAT
+ Step 5      COMPUTE       N=N+1
+ Step 6        GOTO STEP 3
+ Step 7        END
+
+Practical:2 :Write a Program to add two numbers.
+
+
+
+Algorithm
+
+Step 1  START
+Step 2  INPUT   N1 ,N2   B=2
+Step 3  COMPUTE     SUM N1+N2
+Step 4  PRINT  SUM
+Step 5 END
+Practical: 3: Write such program which can read six numbers and print their average.
+
+Algorithm
+
+Step 1  START
+Step 2  INPUT       N1, N2, N3, N4, N5, N6
+Step 3  COMPUTE     AVG=( N1+N2+N3+N4+N5+N6) /6
+Step 4  PRINT             AVG
+Step 5  END
+Practical: 4: Write a program which can find the largest number of given three numbers.
+
+
+Algorithm
+
+Step 1  START
+Step 2  INPUT       N1, N2, N3
+Step 3  DECISION  IS N1> N2 AND N1 > N3 IF YES THEN  PRINT  N1
+Step 4  DECISION  IS N2> N1 AND N2 > N3 IF YES THEN  PRINT  N2
+Step  5 ELSE PRINT  N3
+Step 6  END
+Practical: 5: Write a program that can calculate the sum and average of four numbers.
+
+Algorithm
+
+Step 1  START
+Step 2  INPUT       N1, N2, N3, N4
+Step 3  COMPUTE     SUM= N1, N2, N3, N4
+Step 4  COMPUTE   AVG= SUM/4
+Step 5  PRINT  SUM,AVG
+Step 6 END
+Practical: 6: Write a program that can draw a circle in a square.
+Program:
+10    CLS
+20     SCREEN 2
+30      CIRCLE  ( 100,100), 50
+40      LINE ( 168,35)- (472,165),,B
+50      END
+Algorithm
+
+Step 1  START
+Step 2  PRINT     SCREEN 2
+Step
+
+3  PRINT      CIRCLE
+(100,100),50
+Step 4  PRINT       LINE (168,35)- (472,165),,B
+Step 5  END
+Practical: 7: Write a program that can calculate the area of a circle.
+
+
+Algorithm
+
+Step 1  START
+Step 2  INPUT    N=R
+Step 3  COMPUTE   AREA =3.14*R*R
+Step 4  PRINT          AREA
+Step 5  END
+Practical: 8: Write a program that can draw a circle.
+Program:
+10    CLS
+20     SCREEN 2
+30      CIRCLE  ( 100,100), 50
+40      END
+Algorithm
+
+Step 1  START
+Step 2  PRINT     SCREEN 2
+Step
+
+3  PRINT      CIRCLE
+(1000,100),50
+Step 4  END
+Practical: 9: Write a program that can find the value of a solid cylinder
+
+
+Algorithm
+
+Step 1  START
+Step 2  INPUT      R , H
+Step 3  COMPUTE VOL= 3.14*R^2*H
+Step 4    PRINT  VOL
+Step 5  END
+Practical:10: Write a program that can calculate the area of a rectangle
+
+
+Practical:11: Write a program to show 1st ten odd numbers using while wend loop.
